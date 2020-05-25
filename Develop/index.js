@@ -23,13 +23,23 @@ const questions = [
       {
         type: "input",
         name: "github",
-        message: "Enter your GitHub Username"
+        message: "Enter your GitHub Username?"
       },
       {
-        type: "input",
-        name: "linkedin",
-        message: "Enter your LinkedIn URL."
-      }
+        type: "text",
+        name: "license",
+        message: "What is the License for this Project?"
+      },
+      {
+        type: "text",
+        name: "installation",
+        message: "What are the Installation Instructions?"
+      },
+      {
+        type: "text",
+        name: "instructions",
+        message: "What are the Instructions to Test the Project?"
+      },
 
 
 
