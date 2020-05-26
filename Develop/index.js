@@ -16,7 +16,7 @@ const questions = [
         message: 'Describe the Project?'
       },
       {
-        type: 'text',
+        type: 'input',
         name: 'table',
         message: 'List the Table of Contents?'
       },
