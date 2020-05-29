@@ -3,14 +3,14 @@ function generateMarkdown(data) {
 
   [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/crscode/ReadMeGenCRSCODE)
 
-# TITLE
+# **Title**  
 ___
 
-# ${data.title}
+## ${data.title}
 
 ___
 
-# Description
+# **Description** 
 
 ___
 
@@ -18,39 +18,56 @@ ___
 
 ___
 
-# TABLE OF CONTENTS
+# **TABLE OF CONTENTS**
 
 ___
+
+1. [Title](#Title)
+
+2. [GitHub](#GitHub)
+
+3. [Description](#Description)
+
+4. [Instructions](#Instructions)
+
+5. [License](#License)
+    
 
 ## ${data.table}
 
 ___
 
-# GITHUB 
+# **GITHUB** 
 
 ___
 
-http://github.com - automatic!
-[${data.github}](http://github.com)
+![GitHub Logo](https://avatars1.githubusercontent.com/u/61256280?s=100&u=c460043d70fe800acef72249137a91ac764f57e3&v=4)
+
+
+
+[${data.github}](http://github.com/${data.github})
+
+
 
 ___
 
-# INSTRUCTIONS
+# **INSTRUCTIONS**
 
 ___
 ## ${data.instructions}
 
 ___
 
-# LICENSE
+# **LICENSE**
 
 ___
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ${data.license}
 
 ___
 
-# INSTALLATION
+# **INSTALLATION**
 
 ___
 
